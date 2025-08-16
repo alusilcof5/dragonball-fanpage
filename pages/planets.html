@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../assets/img/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="../assets/css/animation.css">
+  <title>Dragon Ball - Planetas</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col">
+
+  <!-- Navbar -->
+<nav class="bg-orange-500 text-white shadow-lg">
+    <div class="container mx-auto flex justify-between items-center p-4">
+  <a href="../index.html">
+    <img src="../assets/img/logo.png" alt="Logo" class="h-40">
+  </a>
+  <ul class="flex gap-6 text-lg">
+        <li><a href="../index.html" class="text-3xl hover:underline">Inicio</a></li>
+        <li><a href="../pages/characters.html" class="text-3xl hover:underline">Personajes</a></li>
+        <li><a href="../pages/planets.html" class="text-3xl hover:underline">Planetas</a></li>
+        <li><a href="../pages/transformations.html" class="text-3xl hover:underline">Transformaciones</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="flex-grow flex flex-col items-center py-8">
+    <h1 class="text-4xl font-bold mb-8">Planetas</h1>
+    <div id="planetsSection" 
+         class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 max-w-7xl mx-auto">
+    </div>
+  </main>
+
+  <footer class="bg-gray-900 text-gray-300 py-6">
+  <div class="container mx-auto flex flex-col sm:flex-row items-center justify-between px-4">
+    
+   
+    <p class="text-sm mb-4 sm:mb-0">
+      © 2025 Dragon Ball API Demo. Todos los derechos reservados.
+    </p>
+
+    
+    <div class="flex gap-4 text-3xl">
+      <a href="https://www.linkedin.com/in/ana-lucia-silva-cordoba" target="_blank" class="hover:text-blue-400 transition-colors">
+        <span class="sr-only">LinkedIn</span>
+        <i class="fab fa-linkedin" aria-hidden="true"></i>
+      </a>
+      <a href="https://github.com/alusilcof5" target="_blank" class="hover:text-gray-400 transition-colors">
+        <span class="sr-only">GitHub</span>
+        <i class="fab fa-github" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script type="module" src="../js/planets.js"></script>
+</body>
+</html>
